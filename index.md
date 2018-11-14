@@ -3,4 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: Home
+tag: assignment
 ---
+<!---
+Note that the tag is important: ONLY includes posts with assignment tag.
+-->
+
+* a list item
+* another list item

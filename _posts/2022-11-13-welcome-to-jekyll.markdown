@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  First post - how to Jekyll
-date:   2018-11-13 16:00:00 -0600
-
+title:  "01 - What are..."
+date:   2018-11-13 16:07:27 -0600
+tag: assignment
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
