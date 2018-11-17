@@ -3,8 +3,10 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: Home
+title: Start
 tag: assignment
+permalink: /start/
+order: 1
 ---
 <!---
 Note that the tag is important: ONLY includes posts with assignment tag.

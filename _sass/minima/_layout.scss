@@ -1,11 +1,22 @@
 /**
  * Site header
  */
-.site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
-  min-height: $spacing-unit * 1.865;
 
+header {
+  background-color: $secondary-color;
+  a {
+    letter-spacing: 2px;
+  }
+  nav {
+    text-transform: uppercase;
+    border: 2px solid $brand-color;
+  }
+}
+
+.site-header {
+  border-top: 2px solid $brand-color;
+  border-bottom: 2px solid $brand-color;
+  min-height: $spacing-unit * 3;
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -14,18 +25,23 @@
   @include relative-font-size(1.625);
   font-weight: 300;
   line-height: $base-line-height * $base-font-size * 2.25;
-  letter-spacing: -1px;
-  margin-bottom: 0;
+  margin-top: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+  padding-right: $spacing-unit / 2;
   float: left;
+}
 
-  &,
-  &:visited {
-    color: $grey-color-dark;
-  }
+.site-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: $text-color !important;
 }
 
 .site-nav {
   float: right;
+  margin-top: $spacing-unit / 2;
+  padding-left: $spacing-unit / 2;
+  padding-right: $spacing-unit / 2;
   line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
@@ -63,7 +79,6 @@
       z-index: 2;
       cursor: pointer;
     }
-
     .menu-icon {
       display: block;
       float: right;
@@ -72,6 +87,7 @@
       line-height: 0;
       padding-top: 10px;
       text-align: center;
+      padding-right: $spacing-unit;
 
       > svg {
         fill: $grey-color-dark;
@@ -106,7 +122,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 2px solid $brand-color;
   padding: $spacing-unit 0;
 }
 
@@ -132,6 +148,7 @@
   float: left;
   margin-bottom: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
+  color: $text-color;
 }
 
 .footer-col-1 {
@@ -184,20 +201,26 @@
 
 .post-list-heading {
   @include relative-font-size(1.75);
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .post-list {
   margin-left: 0;
   list-style: none;
 
+
   > li {
     margin-bottom: $spacing-unit;
+  }
+  h3 a {
+    color: $brand-color;
   }
 }
 
 .post-meta {
   font-size: $small-font-size;
-  color: $grey-color;
+  color: $text-color;
 }
 
 .post-link {
@@ -210,8 +233,38 @@
 /**
  * Posts
  */
+
+ .post-wrapper {
+   text-align: center;
+ }
 .post-header {
   margin-bottom: $spacing-unit;
+  border: 2px dotted $brand-color;
+  padding: $spacing-unit / 2;
+  border-radius: $border-unit;
+  text-align: center;
+  background: none;
+  text-transform: uppercase;
+
+}
+
+.post-header h1 {
+  color: $brand-color;
+  position: relative; 
+  letter-spacing: 1px;
+  padding-bottom: $spacing-unit / 2;
+}
+
+.post-header h1::after {
+  display: block;
+  background: $brand-color;
+   content: '';
+  width: 100%;
+  margin: auto;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .post-title {
