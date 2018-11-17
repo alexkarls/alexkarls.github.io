@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "Static Site Generator"
+date:   2018-11-16 10:00:00 -0600
+tag: assignment
+---
+
+# What is a Static Site Generator?
+
+The concept behind a Static Site Generator is to take HTML files (source files) and to convert them into a static website. 
+Why would we need to convert HTML in the first place?
+
+Because the reason to use a Static Site Generator is to reduce the HTML code. To achieve this, the generator builds the website from templates. What is something common that all websites have? The most basic example would be a section (header) containing the navigation elements and a section (footer) containing the footer elements. The norm is that these two sections look identical across the entire website which also means that the markup is identical in every HTML file. 
+
+This is something we can avoid. With a generator we can create templates for things that are included more than once. We can then insert this template with one line on the pages on our website that should include the template content. Now with one short line we can insert the header, with another short line we can insert the footer.
+
+**This is how the structure can look:**
+```html
+<!DOCTYPE html>
+<html lang="en">
+  include head.html
+  <body>
+    include header.html
+    <main>
+      <div>
+        content
+      </div>
+    </main>
+    include footer.html
+  </body>
+</html>
+```
+And let’s say you wanted to add another page to the navigation? That’s now simple and streamlined with a change to the template. That’s the basic concept, to reduce the amount of code (reduce clutter) and make the whole development process and the website more streamlined. 
+
+### What do I think of Static Site Generators?
+
+In short, I think they’re an excellent tool suitable for a lot projects. I would like to describe a Static Site Generator as a builder, generator or a processor. I would also like to describe it as a CMS (Content Managements System) since it uses templates and can streamline the entire website (from developing to the user experience). It can streamline a website (and it does so by default) more areas than I have mentioned in this post, to the point that a content creator basically only have to concern himself with the content that’s going to be included.
+
+It achieves this with a templating language. Which in this example can be used to dynamically insert content in a template, so whatever title the content creator decides to use automatically ends up in a header tag on a post or page. Another example would be that the content creator decides to publish a new post, the post can with templating language directly end up on the right page without having to insert the post in the flow of the HTML document. But a in-depth look into the more intricate parts will have to wait.
+
+In the meantime, below are some resources:<br>
+[Liquid (Templating Language)](https://shopify.github.io/liquid/)<br>
+[Jekyll (Static Site Generator](https://jekyllrb.com/)
+
+### What type of projects are they suitable for?
+
+It’s best suited to use on smaller scale websites. The downside (and upside) with a static website is that there’s no database involved. You need to fetch the files from a directory too make changes to the files and then push it back. There’s several drawbacks with this. The contributors need to communicate, there’s no privileges (that can be set with a CMS that has a database) and it requires some technical expertise. However the main upside to not having a database is more performance and security. 
+
+With that said, I think it can be excellent for a small business. But I think it’s most appropriate use and where it shines is on the individual level. As I have stated earlier it’s perfect for content driven websites. It’s perfect to create a customized blog with or any type of feed. Since it’s performant another excellent example would be a kickstarter website where the whole point is to attract attention and make it viral.
+
+To summarize: If the website is content driven and has no more than a few contributors, I think it’s worth consideration.

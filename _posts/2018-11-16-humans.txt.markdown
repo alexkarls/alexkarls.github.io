@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "humans.txt"
+date:   2018-11-16 12:00:00 -0600
+tag: assignment
+---
+
+# What is humans.txt?
+
+The humans.txt is a cool initiative. It’s a way for the people behind a web product (website, web application…) to leave a mark. It’s non-intrusive in the sense that it’s public but hidden, there’s not a link to the text file, the user had to add /humans.txt to the web address in order to view it. 
+
+Since all the other creative professions have some way to sign their work it’s a great initiative that allows us developers to do the same. It’s also a nice touch and a reminder that there’s people behind all these web products we use.
+
+Check out my .txt for humans:<br>
+[https://alexkarls.github.io/humans.txt](https://alexkarls.github.io/humans.txt)
+
+### How did I configure it for my site?
+
+It’s super simple. Just open up notepad or another text editor and start writing. As with all things on the web it’s important to follow the standards:<br>
+[http://humanstxt.org/](http://humanstxt.org/)
+
+When done, save it in the .txt format and place it in the same folder as the websites source folder. That's the folder with the starting HTML document (index.html) and that's it. The text file for humans should now be accessible
+[http://example.com/humans.txt](http://example.com/humans.txt)
