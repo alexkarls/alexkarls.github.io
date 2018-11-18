@@ -1,0 +1,22 @@
+
+/* TEAM */
+Name: Alex Karlsson.
+Role: Developer.
+Contact: +46760879951.
+Location: Kalmar, Sweden.
+
+/* THANKS */
+
+Special thanks to the team behind Jekyll and the contributors to the
+default theme Minima.
+
+Name: https://jekyllrb.com/
+
+/* SITE */
+
+Last update: 2018/11/10
+Standards: HTML5, CSS3.
+Components: Jekyll, Liquid, sass.
+Minima version: 2.5.0
+Jekyll version: 3.8.4
+sass version: 3.7.2

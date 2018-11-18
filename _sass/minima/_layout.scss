@@ -116,8 +116,6 @@ header {
   }
 }
 
-
-
 /**
  * Site footer
  */
@@ -187,6 +185,38 @@ header {
   }
 }
 
+/*
+ * Page header
+ */
+
+ .page-header {
+  margin-bottom: $spacing-unit;
+  padding: $spacing-unit / 2;
+  text-align: center;
+  background: none;
+  text-transform: uppercase;
+ }
+
+ .page-header h1 {
+  color: $brand-color;
+  font-size: $base-font-size * 2;
+  letter-spacing: 1px;
+  position: relative; 
+  padding-bottom: $spacing-unit / 2;
+}
+
+.page-header h1::after {
+  display: block;
+  background: $brand-color;
+   content: '';
+  width: 100%;
+  margin: auto;
+  height: 1px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
 /**
  * Page content
  */
@@ -237,6 +267,7 @@ header {
  .post-wrapper {
    text-align: center;
  }
+
 .post-header {
   margin-bottom: $spacing-unit;
   border: 2px dotted $brand-color;
