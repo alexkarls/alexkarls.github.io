@@ -2,17 +2,6 @@
  * Site header
  */
 
-header {
-  background-color: $secondary-color;
-  a {
-    letter-spacing: 2px;
-  }
-  nav {
-    text-transform: uppercase;
-    border: 2px solid $brand-color;
-  }
-}
-
 .site-header {
   border-top: 2px solid $brand-color;
   border-bottom: 2px solid $brand-color;

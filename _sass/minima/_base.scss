@@ -8,7 +8,19 @@ dl, dd, ol, ul, figure {
   padding: 0;
 }
 
-
+/**
+ * Basic header styling
+ */ 
+ header {
+  background-color: $secondary-color;
+  a {
+    letter-spacing: 2px;
+  }
+  nav {
+    text-transform: uppercase;
+    border: 2px solid $brand-color;
+  }
+}
 
 /**
  * Basic styling

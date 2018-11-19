@@ -21,7 +21,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Development and operation of software systems. This website is the 
   first project in the course and will house future projects.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://localhost:4000" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://alexkarls.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /start/
 path: 
 
 github_username: alexkarls
