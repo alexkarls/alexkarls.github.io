@@ -2,7 +2,7 @@
 layout: post
 title:  "Open Graph"
 date:   2018-11-18 18:00:00 -0600
-tag: assignment
+tag:    assignment
 ---
 
 # What is Open Graph?
