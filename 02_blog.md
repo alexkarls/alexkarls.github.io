@@ -5,5 +5,3 @@ permalink: /blog/
 order: 2
 ---
 
-### HELLO MY FRIEND!
-LALALALLALALAL

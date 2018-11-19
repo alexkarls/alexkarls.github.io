@@ -12,5 +12,6 @@ order: 1
 Note that the tag is important: ONLY includes posts with assignment tag.
 -->
 
-* a list item
-* another list item
+This is a website were I will post school assignments. I will also blog about interstering techniques that
+I come across. There's also a dedicated "playground" that could be described as a testing area for me, 
+I'm a student after all. The assignment posts are listed below.

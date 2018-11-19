@@ -1,0 +1,29 @@
+---
+layout: post
+title:  robots.txt
+date:   2018-11-16 13:00:00 -0600
+tag: assignment
+---
+
+# What is robots.txt?
+
+Quoute from the website:<br>
+[http://www.robotstxt.org/](http://www.robotstxt.org/)
+
+“Web Robots (also known as Web Wanderers, Crawlers, or Spiders), are programs that traverse the Web automatically. Search engines such as Google use them to index the web content, spammers use them to scan for email addresses, and they have many other uses.”
+
+It's a great description that describes web robots, how search engines (and other robots) index (crawl) the web to show us relevant content when we make a web search.
+
+A robots.txt (text doucment) on the other hand can be described as a method to counter a robot. It’s a simple text file that either allows or disallows a web robot access to either the whole website or certain parts. The folders that should be off limits can be specified in the robots .txt file. However this method doesn’t enforce restricted access, it’s up to the robots traversing the website to respect the text file. Good news is that all the major players (Google, Bing…) respect this. Bad news is that perhaps the shady robots doesn’t. 
+
+### How did I configure it for my site?
+
+It’s super simple. Just open up a notepad or another text editors and start setting the robot rules. To get started, check out the website I linked to earlier:<br>
+[http://www.robotstxt.org/](http://www.robotstxt.org/robotstxt.html)
+
+You can limit access to certain areas or allow access to certain areas. If you don’t like the search engine Google but love Bing, you can disallow Google and allow Bing. But I don’t recommend doing that since it’s bad practise and can hurt search results.
+
+One reason to limit robots is to decrease server load. Fewer robots means fewer requests. I’m not worried about that with this website so all robots are allowed everywhere. It’s recommended (considered good practise) to have a robots.txt file even if it’s as simple as mine:
+[https://alexkarls.github.io/robots.txt](https://alexkarls.github.io/robots.txt)
+
+When you’re finished, save it to a .txt and place in the same folder as the websites starting HTML document (usually that’s index.html) and that’s it.

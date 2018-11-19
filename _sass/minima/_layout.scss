@@ -146,17 +146,25 @@ header {
   float: left;
   margin-bottom: $spacing-unit / 2;
   padding-left: $spacing-unit / 2;
-  color: $text-color;
+  color: $grey-color-dark;
 }
 
 .footer-col-1 {
   width: -webkit-calc(35% - (#{$spacing-unit} / 2));
   width:         calc(35% - (#{$spacing-unit} / 2));
+  p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
 }
 
 .footer-col-2 {
   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
   width:         calc(20% - (#{$spacing-unit} / 2));
+  p {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
 }
 
 .footer-col-3 {
@@ -230,7 +238,7 @@ header {
 }
 
 .post-list-heading {
-  @include relative-font-size(1.75);
+  @include relative-font-size(1.5);
   text-transform: uppercase;
   letter-spacing: 2px;
 }
@@ -270,7 +278,7 @@ header {
 
 .post-header {
   margin-bottom: $spacing-unit;
-  border: 2px dotted $brand-color;
+  border: 1px dotted $brand-color;
   padding: $spacing-unit / 2;
   border-radius: $border-unit;
   text-align: center;
@@ -298,13 +306,17 @@ header {
   left: 0;
 }
 
+/*
+Post font size
+*/
+
 .post-title {
-  @include relative-font-size(2.625);
+  @include relative-font-size(2);
   letter-spacing: -1px;
   line-height: 1;
 
   @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
+    @include relative-font-size(1.75);
   }
 }
 
