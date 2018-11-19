@@ -7,7 +7,7 @@ permalink: /about/
 
 ![Picture of me](/img/alex-teneriffa.jpg)
 
-My name is Alex and I’m 23 years old and I live in Kalmar, Sweden. Since earlier this year I’m a student at Linnaeus university and I’m enrolled in the program Development and operation of software systems.
+My name is Alex and I’m 23 years old and I live together with my girlfriend in Kalmar, Sweden. Since earlier this year I’m a student at Linnaeus university and I’m enrolled in the program Development and operation of software systems.
 
 My interest have always been computer related. A big interest has been editing (film and photo) and it’s something I like to do in my spare time. I’ve worked at different jobs since I finished high school (brewery, callcenter) and unfortunately haven’t pursued a computer related education until now. I have no earlier programming experience but I love it, it’s challenging but great.
 
